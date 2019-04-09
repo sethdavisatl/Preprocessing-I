@@ -276,3 +276,23 @@ header h1 {
   font-size: 2.2rem;
   border-bottom: 1px dashed black;
 }
+.skills {
+  display: flex;
+  flex-direction: row;
+}
+.skills h4 {
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+  margin-top: 0.75rem;
+}
+.skills p {
+  margin: 0.5rem 2rem;
+}
+.skills .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem 0;
+}
