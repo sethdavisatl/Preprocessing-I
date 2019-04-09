@@ -168,7 +168,50 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 2rem;
+}
+@media (max-width: 500px) {
+  header {
+    margin-top: 4rem;
+  }
+}
+header nav {
+  font-size: 2rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  header nav {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  header nav {
+    display: none;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+header nav a {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+@media (max-width: 800px) {
+  header nav a {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  header nav a {
+    width: 90%;
+  }
+}
+header h1 {
+  text-align: center;
 }
 @media (max-width: 800px) {
   header p {
@@ -189,6 +232,7 @@ header {
   align-items: center;
   flex-direction: column;
   background: lightgray;
+  padding-bottom: 10px;
 }
 .education h4 {
   border-bottom: 1px solid black;
@@ -202,4 +246,21 @@ header {
 .education .degree {
   font-size: 2.2rem;
   border-bottom: 1px dashed black;
+}
+.positions {
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.positions h4 {
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+  margin-top: 0.75rem;
+}
+.positions .list p {
+  font-size: 2rem;
+  display: flex;
 }
